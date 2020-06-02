@@ -56,9 +56,9 @@
                         </td>
                     </tr>
                     <tr>
-                </tbody>
-                </table>
+                <\tbody>
+                <\table>
         <\div>
 <\body>
 <script src="app.js"></script>
-</html>
+<\html>
