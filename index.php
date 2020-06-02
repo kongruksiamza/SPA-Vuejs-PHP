@@ -28,8 +28,8 @@
                             <input type="submit" v-model="form.status" class="btn btn-success">
                             <input type="reset" value="ยกเลิก" class="btn btn-danger">
                         </form>
-                     </div>
-                </div>
+                     <\div>
+                <\div>
                 <div class="py-2">
                     {{form}}
                 </div>
@@ -58,7 +58,7 @@
                     <tr>
                 </tbody>
                 </table>
-        </div>
-</body>
+        <\div>
+<\body>
 <script src="app.js"></script>
 </html>
