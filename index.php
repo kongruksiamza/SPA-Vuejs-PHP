@@ -10,7 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<\head>
+</head>
 <body>
         <div class="container" id="app">
                 <h2 align="center">{{message}}</h2>
@@ -20,16 +20,16 @@
                             <div class="form-group">
                                 <label for="">ชื่อจริง</label>
                                 <input type="text" v-model="form.fname" class="form-control">
-                            <\div>
+                            </div>
                             <div class="form-group">
                                 <label for="">นามสกุล</label>
                                 <input type="text" v-model="form.lname" class="form-control">
-                            <\div>
+                            </div>
                             <input type="submit" v-model="form.status" class="btn btn-success">
                             <input type="reset" value="ยกเลิก" class="btn btn-danger">
-                        <\form>
-                     <\div>
-                <\div>
+                        </form>
+                     </div>
+                </div>
                 <div class="py-2">
                     {{form}}
                 </div>
@@ -56,9 +56,9 @@
                         </td>
                     </tr>
                     <tr>
-                <\tbody>
-                <\table>
-        <\div>
-<\body>
+                </tbody>
+                </table>
+        </div>
+</body>
 <script src="app.js"></script>
-<\html>
+</html>
