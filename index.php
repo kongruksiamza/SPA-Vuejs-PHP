@@ -20,14 +20,14 @@
                             <div class="form-group">
                                 <label for="">ชื่อจริง</label>
                                 <input type="text" v-model="form.fname" class="form-control">
-                            </div>
+                            <\div>
                             <div class="form-group">
                                 <label for="">นามสกุล</label>
                                 <input type="text" v-model="form.lname" class="form-control">
-                            </div>
+                            <\div>
                             <input type="submit" v-model="form.status" class="btn btn-success">
                             <input type="reset" value="ยกเลิก" class="btn btn-danger">
-                        </form>
+                        <\form>
                      <\div>
                 <\div>
                 <div class="py-2">
